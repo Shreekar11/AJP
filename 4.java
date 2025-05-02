@@ -64,8 +64,7 @@ public class JdbcNew {
             System.out.println("3. Update Student");
             System.out.println("4. Delete Student");
             System.out.println("5. Fetch Data");
-            System.out.println("6. Search Data");
-            System.out.println("7. Close Connection");
+            System.out.println("6. Close Connection");
             System.out.println("0. Exit");
 
             System.out.println("Enter your choice:");
@@ -89,9 +88,6 @@ public class JdbcNew {
                     fetchData();
                     break;
                 case 6:
-                    searchData();
-                    break;
-                case 7:
                     closeConnection();
                     break;
                 case 0:
@@ -167,6 +163,13 @@ public class JdbcNew {
             }
         } catch (SQLException e) {
             System.out.println("Error fetching data: " + e.getMessage());
+        }
+    }
+
+    public void closeConnection() throws SQLException {
+        if (con != null) {
+            con.close();
+            System.out.println("Connection closed successfully.");
         }
     }
 }
