@@ -37,11 +37,6 @@ public class KeyboardPress extends WindowAdapter implements KeyListener {
         f.add(ta);
     }
 
-    public void register() {
-        f.addWindowListener(this);
-        f.addKeyListener(this);
-    }
-
     public void keyTyped(KeyEvent e) {
         l2.setText("Key Typed: " + e.getKeyChar());  
     }
@@ -56,6 +51,11 @@ public class KeyboardPress extends WindowAdapter implements KeyListener {
 
     public void windowClosing(WindowEvent e) {
         f.dispose();
+    }
+
+    public void register() {
+        f.addWindowListener(this);
+        f.addKeyListener(this);
     }
 
     public static void main(String args[]) {

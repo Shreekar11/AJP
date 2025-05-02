@@ -37,11 +37,6 @@ public class MousePress extends WindowAdapter implements MouseListener {
         f.add(ta);
     }
 
-    public void register() {
-        f.addWindowListener(this);
-        f.addMouseListener(this);
-    }
-
     public void mouseClicked(MouseEvent e) {
         l2.setText("Mouse Clicked");
         ta.setBackground(Color.YELLOW);
@@ -69,6 +64,11 @@ public class MousePress extends WindowAdapter implements MouseListener {
 
     public void windowClosing(WindowEvent e) {
         f.dispose();
+    }
+
+    public void register() {
+        f.addWindowListener(this);
+        f.addMouseListener(this);
     }
 
     public static void main(String[] args) {
