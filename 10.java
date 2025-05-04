@@ -1,4 +1,4 @@
-package exp10;
+package com.calculator;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

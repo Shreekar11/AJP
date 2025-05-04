@@ -1,6 +1,6 @@
 // ClientSideServlet.java
 
-package exp7;
+package com.shreekar;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
