@@ -1,6 +1,7 @@
 // interface file
 
-package exp8;
+package exp8; // here add you package name
+
 import java.rmi.*;
 import java.rmi.server.*;
 import java.rmi.RemoteException;
@@ -10,7 +11,8 @@ public interface PrintI extends Remote {
 }
 
 // class file
-package exp8;
+package exp8; // here add you package name
+
 import java.rmi.*;
 import java.rmi.server.*;
 import java.util.*;
@@ -47,7 +49,8 @@ public class PrintC extends UnicastRemoteObject implements PrintI {
 
 // server file
 
-package exp8;
+package exp8; // here add you package name
+
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.rmi.server.*;
@@ -65,7 +68,8 @@ public class Server {
 }
 
 // client file
-package exp8;
+package exp8; // here add you package name
+
 import java.rmi.*;
 import java.util.*;
 import java.net.MalformedURLException;

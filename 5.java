@@ -1,5 +1,6 @@
 // interface file
-package exp5;
+package exp5; // here add you package name
+
 import java.rmi.*;
 
 public interface PrintI extends Remote {
@@ -7,6 +8,9 @@ public interface PrintI extends Remote {
 }
 
 // class file
+
+package exp5; // here add you package name
+
 import java.rmi.*;
 import java.util.*;
 import java.rmi.server.*;
@@ -69,7 +73,8 @@ public class PrintC extends UnicastRemoteObject implements PrintI {
 }
 
 // server file
-package exp5;
+package exp5; // here add you package name
+
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.rmi.server.*;
@@ -89,7 +94,8 @@ public class Server {
 }
 
 // client file
-package exp5;
+package exp5; // here add you package name
+
 import java.rmi.*;
 import java.util.*;
 import java.rmi.registry.*;

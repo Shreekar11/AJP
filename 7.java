@@ -1,6 +1,7 @@
 // ClientSideServlet.java
 
-package com.shreekar;
+package com.shreekar; // here add you package name
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -23,7 +24,8 @@ public class ClientSideServlet extends HttpServlet {
 }
 
 // ServerSideServlet.java
-package exp7;
+package com.shreekar; // here add you package name
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

@@ -1,4 +1,5 @@
-package exp6;
+package exp6; // here add you package name
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 

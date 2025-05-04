@@ -1,4 +1,5 @@
-package exp2;
+package exp2; // here add you package name
+
 import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
