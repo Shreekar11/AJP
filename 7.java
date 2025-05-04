@@ -51,11 +51,11 @@ public class ServerSideServlet extends HttpServlet {
                              http://xmlns.jcp.org/xml/ns/javaee/webapp_4_0.xsd"
          id="WebApp_ID" version="4.0">
 
-    <display-name>exp8</display-name>
+    <display-name>Experiment7</display-name>
 
     <servlet>
         <servlet-name>ClientSideServlet07</servlet-name>
-        <servlet-class>com.sameer.ClientSideServlet07</servlet-class>
+        <servlet-class>com.shreekar.ClientSideServlet07</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -65,7 +65,7 @@ public class ServerSideServlet extends HttpServlet {
 
     <servlet>
         <servlet-name>ServerSideServlet07</servlet-name>
-        <servlet-class>com.sameer.ServerSideServlet07</servlet-class>
+        <servlet-class>com.shreekar.ServerSideServlet07</servlet-class>
     </servlet>
 
     <servlet-mapping>
