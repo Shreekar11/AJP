@@ -36,7 +36,7 @@ public class ToDoServlet extends HttpServlet {
         String taskToDelete = request.getParameter("task");
         String action = request.getParameter("action");
         HttpSession session = request.getSession();
-        List<String> tasks = (List<>String) session.getAttribute("tasks");
+        List<String> tasks = (List<String>) session.getAttribute("tasks");
         if("delete".equals(action) && tasks != null) {
             tasks.remove(taskToDelete);
         }
