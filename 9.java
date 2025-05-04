@@ -1,4 +1,4 @@
-package com.todo // here add you package name;
+package com.todo; // here add you package name;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
